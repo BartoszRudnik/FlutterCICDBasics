@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android signing
+*.keystore
+*.jks
+key.properties
+
+# Build outputs (nie commituj APK do repo)
+build/
+
+# Local env
+.env
+.env.local
